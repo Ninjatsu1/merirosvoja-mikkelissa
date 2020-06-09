@@ -8,13 +8,17 @@ public class Player : MonoBehaviour
     private Rigidbody2D MyRigidbody2D;
     public float jumpForce = 1;
     public bool facingRight;
-     void Start()
+
+    private Animator anim;
+    void Start()
     {
         facingRight = true;
         MyRigidbody2D = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
-     void Update()
+    void Update()
     {
+        // float horizontal is Running
         float Horizontal = Input.GetAxis("Horizontal"); //Finds input from the input manager
         transform.position += new Vector3(Horizontal, 0, 0) * Time.deltaTime * MovementSpeed;
         if (Input.GetButtonDown("Jump") && Mathf.Abs(MyRigidbody2D.velocity.y) < 0.001f)
@@ -22,6 +26,17 @@ public class Player : MonoBehaviour
             MyRigidbody2D.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
 
         }
+
+        if (Horizontal == 0)
+        {
+            anim.SetBool("IsRunning", false);
+        }
+        else
+        {
+            anim.SetBool("IsRunning", true);
+
+        }
+
         flip(Horizontal);
     }
     void flip(float horizontal)

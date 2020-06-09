@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 85ced5744135ec24badce9096bd32d6a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8075849225020989571
+    second: kitty_final_0
+  - first:
+      213: 3137056923505987419
+    second: kitty_final_1
+  - first:
+      213: -7702013340851061825
+    second: kitty_final_2
+  - first:
+      213: 5224477376812047890
+    second: kitty_final_3
+  - first:
+      213: 603995814235561159
+    second: kitty_final_4
+  - first:
+      213: 7465464138591898634
+    second: kitty_final_5
+  - first:
+      213: 2178455493668586525
+    second: kitty_final_6
+  - first:
+      213: 7022194445656909042
+    second: kitty_final_7
+  - first:
+      213: -2743621662839033246
+    second: kitty_final_8
+  - first:
+      213: 4246450626512806372
+    second: kitty_final_9
+  - first:
+      213: -3727447498557125028
+    second: kitty_final_10
+  - first:
+      213: 4524719277247917452
+    second: kitty_final_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kitty_final_0
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 377
+        width: 90
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5632463, y: 0.06518173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f9203eae1dcef80800000000000000
+      internalID: -8075849225020989571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitty_final_1
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 380
+        width: 71
+        height: 63
+      alignment: 9
+      pivot: {x: 0.6362915, y: 0.19280328}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f01cda6a0198b20800000000000000
+      internalID: 3137056923505987419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitty_final_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 233
+        width: 143
+        height: 136
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.05634566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbb04b6ca3fc1590800000000000000
+      internalID: -7702013340851061825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitty_final_3
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 230
+        width: 81
+        height: 120
+      alignment: 9
+      pivot: {x: 0.43675402, y: 0.9269124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e52f56e72118840800000000000000
+      internalID: 5224477376812047890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitty_final_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 185
+        width: 79
+        height: 125
+      alignment: 9
+      pivot: {x: 0.24061063, y: 0.15846986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc55513ef2d16800800000000000000
+      internalID: 603995814235561159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitty_final_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 135
+        width: 50
+        height: 32
+      alignment: 9
+      pivot: {x: 0.8756833, y: 0.749032}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c00309418aa9760800000000000000
+      internalID: 7465464138591898634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitty_final_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 141
+        width: 50
+        height: 32
+      alignment: 9
+      pivot: {x: 0.11293274, y: 0.32211876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d144d13cabd6b3e10800000000000000
+      internalID: 2178455493668586525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitty_final_7
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 166
+        width: 21
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5271069, y: 0.15351935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4e915a4a8d37160800000000000000
+      internalID: 7022194445656909042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitty_final_8
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 26
+        width: 30
+        height: 55
+      alignment: 9
+      pivot: {x: 0.53794837, y: 0.8311801}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262b96c42a2bce9d0800000000000000
+      internalID: -2743621662839033246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitty_final_9
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 25
+        width: 27
+        height: 53
+      alignment: 9
+      pivot: {x: 0.3945906, y: 0.843678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1e78d985c6eea30800000000000000
+      internalID: 4246450626512806372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitty_final_10
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 24
+        width: 99
+        height: 82
+      alignment: 9
+      pivot: {x: 0.54024774, y: 0.38893327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e8599bf32754cc0800000000000000
+      internalID: -3727447498557125028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitty_final_11
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 48
+        width: 85
+        height: 86
+      alignment: 9
+      pivot: {x: 0.6004502, y: 0.5198561}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d69bca5380bce30800000000000000
+      internalID: 4524719277247917452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
