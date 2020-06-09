@@ -1,15 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
+using TMPro;
 public class Player : MonoBehaviour
 {
     public float MovementSpeed = 1;
     private Rigidbody2D MyRigidbody2D;
     public float jumpForce = 1;
     public bool facingRight;
-
+    public int score = 0;
     private Animator anim;
+    public TMP_Text ScoreText;
     void Start()
     {
         facingRight = true;
@@ -18,8 +20,10 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
-        // float horizontal is Running
-        float Horizontal = Input.GetAxis("Horizontal"); //Finds input from the input manager
+        ScoreText.GetComponent<TMP_Text>().text = "x " + score.ToString("0");
+
+// float horizontal is Running
+float Horizontal = Input.GetAxis("Horizontal"); //Finds input from the input manager
         transform.position += new Vector3(Horizontal, 0, 0) * Time.deltaTime * MovementSpeed;
         if (Input.GetButtonDown("Jump") && Mathf.Abs(MyRigidbody2D.velocity.y) < 0.001f)
         {
