@@ -36,7 +36,6 @@ public class Player : MonoBehaviour
             anim.SetBool("IsRunning", true);
 
         }
-
         flip(Horizontal);
     }
     void flip(float horizontal)
