@@ -5,9 +5,9 @@ using UnityEngine.UI;
 using TMPro;
 public class Player : MonoBehaviour
 {
-    public float MovementSpeed = 1;
+    public float MovementSpeed;
     private Rigidbody2D MyRigidbody2D;
-    public float jumpForce = 1;
+    public float jumpForce;
     public bool facingRight;
 
     private Animator anim;
@@ -20,13 +20,13 @@ public class Player : MonoBehaviour
         MyRigidbody2D = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
-    void Update()
+    void FixedUpdate()
     {
         ScoreText.GetComponent<TMP_Text>().text = "x " + score.ToString("0");
 
         // float horizontal is Running
         float Horizontal = Input.GetAxis("Horizontal"); //Finds input from the input manager
-        transform.position += new Vector3(Horizontal, 0, 0) * Time.deltaTime * MovementSpeed;
+        transform.position += new Vector3(Horizontal, 0, 0) * Time.fixedDeltaTime * MovementSpeed;
         if (Input.GetButtonDown("Jump") && Mathf.Abs(MyRigidbody2D.velocity.y) < 0.001f)
         {
             MyRigidbody2D.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
