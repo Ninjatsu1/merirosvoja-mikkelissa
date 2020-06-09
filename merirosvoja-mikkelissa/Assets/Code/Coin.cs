@@ -7,12 +7,12 @@ public class Coin : MonoBehaviour
     [SerializeField]
     private GameObject player;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.tag == "Player")
+        if (other.CompareTag("Player"))
         {
             player.GetComponent<Player>().score += 1;
-            Destroy(gameObject, 0.5f);
+            Destroy(gameObject);
 
         }
     }
