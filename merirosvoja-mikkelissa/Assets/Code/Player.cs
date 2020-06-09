@@ -22,8 +22,8 @@ public class Player : MonoBehaviour
     {
         ScoreText.GetComponent<TMP_Text>().text = "x " + score.ToString("0");
 
-// float horizontal is Running
-float Horizontal = Input.GetAxis("Horizontal"); //Finds input from the input manager
+        // float horizontal is Running
+        float Horizontal = Input.GetAxis("Horizontal"); //Finds input from the input manager
         transform.position += new Vector3(Horizontal, 0, 0) * Time.deltaTime * MovementSpeed;
         if (Input.GetButtonDown("Jump") && Mathf.Abs(MyRigidbody2D.velocity.y) < 0.001f)
         {
