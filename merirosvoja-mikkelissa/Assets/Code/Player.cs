@@ -1,7 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
+using TMPro;
 public class Player : MonoBehaviour
 {
     public float MovementSpeed = 1;
@@ -10,6 +11,9 @@ public class Player : MonoBehaviour
     public bool facingRight;
 
     private Animator anim;
+
+    public int score = 0;
+    public TMP_Text ScoreText;
     void Start()
     {
         facingRight = true;
@@ -18,6 +22,8 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
+        ScoreText.GetComponent<TMP_Text>().text = "x " + score.ToString("0");
+
         // float horizontal is Running
         float Horizontal = Input.GetAxis("Horizontal"); //Finds input from the input manager
         transform.position += new Vector3(Horizontal, 0, 0) * Time.deltaTime * MovementSpeed;
