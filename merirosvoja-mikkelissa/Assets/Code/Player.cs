@@ -14,6 +14,11 @@ public class Player : MonoBehaviour
 
     public int score = 0;
     public TMP_Text ScoreText;
+
+    private bool isGrounded;
+    public Transform groundCheck;
+    public float checkRadius;
+    public LayerMask whatisGround;
     void Start()
     {
         facingRight = true;
@@ -23,22 +28,36 @@ public class Player : MonoBehaviour
     void FixedUpdate()
     {
         ScoreText.GetComponent<TMP_Text>().text = "x " + score.ToString("0");
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatisGround);
 
         // float horizontal is Running
         float Horizontal = Input.GetAxis("Horizontal"); //Finds input from the input manager
         transform.position += new Vector3(Horizontal, 0, 0) * Time.deltaTime * MovementSpeed;
-        if (Input.GetButtonDown("Jump") && Mathf.Abs(MyRigidbody2D.velocity.y) < 0.001f)
+        if (isGrounded == true && Input.GetButtonDown("Jump") && Mathf.Abs(MyRigidbody2D.velocity.y) < 0.001f)
         {
+            //triggers the jump
+            anim.SetTrigger("takeOf");
             MyRigidbody2D.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+        }
+        if (isGrounded == true)
+        {
+            anim.SetBool("isJumping", false);
+        }
+        else
+        {
+            //endJump
+
+            anim.SetBool("isJumping", true);
+
         }
 
         if (Horizontal == 0)
         {
-            anim.SetBool("IsRunning", false);
+            anim.SetBool("isRunning", false);
         }
         else
         {
-            anim.SetBool("IsRunning", true);
+            anim.SetBool("isRunning", true);
 
         }
         flip(Horizontal);
@@ -53,4 +72,15 @@ public class Player : MonoBehaviour
             transform.localScale = theScale;
         }
     }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+
+        if (other.CompareTag("Player"))
+        {
+
+            Health.health -= 1;
+
+        }
+    }
+
 }
