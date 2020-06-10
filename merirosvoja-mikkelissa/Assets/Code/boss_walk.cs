@@ -8,6 +8,7 @@ public class boss_walk : StateMachineBehaviour
     Rigidbody2D MyRigidbody2D;
     public float speed = 3f;
     Boss_Squid boss_squid;
+    public float attackRange = 3f;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -24,12 +25,18 @@ public class boss_walk : StateMachineBehaviour
         Vector2 target = new Vector2(player.position.x, MyRigidbody2D.position.y);
         Vector2 NewPosition = Vector2.MoveTowards(MyRigidbody2D.position, target, speed * Time.fixedDeltaTime);
         MyRigidbody2D.MovePosition(NewPosition);
+
+        if(Vector2.Distance(player.position, MyRigidbody2D.position)<= attackRange)
+        {
+            //attack
+            animator.SetTrigger("attack");
+        }
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        
+        animator.ResetTrigger("attack");
     }
 
   
