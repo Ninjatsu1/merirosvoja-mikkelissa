@@ -30,7 +30,6 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("Jump") && Mathf.Abs(MyRigidbody2D.velocity.y) < 0.001f)
         {
             MyRigidbody2D.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
-
         }
 
         if (Horizontal == 0)
