@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
         MyRigidbody2D = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
-    void Update()
+    void FixedUpdate()
     {
         ScoreText.GetComponent<TMP_Text>().text = "x " + score.ToString("0");
 
@@ -30,7 +30,6 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("Jump") && Mathf.Abs(MyRigidbody2D.velocity.y) < 0.001f)
         {
             MyRigidbody2D.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
-
         }
 
         if (Horizontal == 0)

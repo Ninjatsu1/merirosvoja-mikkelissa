@@ -9,10 +9,10 @@ public class Coin : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.CompareTag("Player"))
         {
             player.GetComponent<Player>().score += 1;
-            Destroy(gameObject, 0.5f);
+            Destroy(gameObject);
 
         }
     }
