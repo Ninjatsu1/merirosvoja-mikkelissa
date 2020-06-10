@@ -15,6 +15,7 @@ public class PlayerAttack : MonoBehaviour
 
     void Start()
     {
+
         anim = GetComponent<Animator>();
     }
 
