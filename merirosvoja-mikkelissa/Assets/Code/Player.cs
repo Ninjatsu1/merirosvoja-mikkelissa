@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
         MyRigidbody2D = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
-    void Update()
+    void FixedUpdate()
     {
         ScoreText.GetComponent<TMP_Text>().text = "x " + score.ToString("0");
 
