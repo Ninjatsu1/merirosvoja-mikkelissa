@@ -13,7 +13,6 @@ public class PlayerAttack : MonoBehaviour
     public int damage;
     private Animator anim;
 
-
     void Start()
     {
 
