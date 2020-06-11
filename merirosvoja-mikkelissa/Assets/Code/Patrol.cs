@@ -9,6 +9,12 @@ public class Patrol : MonoBehaviour
     private bool movingRigth = true;
     public Transform groundDetection;
     public float enemyHealth;
+    private Animator anim;
+
+    void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
 
     void Update()
     {
@@ -24,6 +30,7 @@ public class Patrol : MonoBehaviour
         {
             if (movingRigth == true)
             {
+
                 transform.eulerAngles = new Vector3(0, -180, 0);
                 movingRigth = false;
             }

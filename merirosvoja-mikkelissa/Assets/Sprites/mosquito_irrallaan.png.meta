@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 64aca0cb3c16a694d98d308f74671a6b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1207431328261357471
+    second: mosquito_irrallaan_0
+  - first:
+      213: 3271101535172903488
+    second: mosquito_irrallaan_1
+  - first:
+      213: -7891236703167209525
+    second: mosquito_irrallaan_2
+  - first:
+      213: -8860650532542800359
+    second: mosquito_irrallaan_3
+  - first:
+      213: 4348115747887623463
+    second: mosquito_irrallaan_4
+  - first:
+      213: 6540078257995137165
+    second: mosquito_irrallaan_5
+  - first:
+      213: -3109312400253073914
+    second: mosquito_irrallaan_6
+  - first:
+      213: 8429412049459489392
+    second: mosquito_irrallaan_7
+  - first:
+      213: -7397342868173880607
+    second: mosquito_irrallaan_8
+  - first:
+      213: 9083987376256130822
+    second: mosquito_irrallaan_9
+  - first:
+      213: 2430052279254149057
+    second: mosquito_irrallaan_10
+  - first:
+      213: -8463781803031301874
+    second: mosquito_irrallaan_11
+  - first:
+      213: -8172868878778081303
+    second: mosquito_irrallaan_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mosquito_irrallaan_0
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 378
+        width: 37
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5000004, y: 0.14423752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160cd4caa975e3fe0800000000000000
+      internalID: -1207431328261357471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mosquito_irrallaan_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 224
+        width: 28
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0424734e389456d20800000000000000
+      internalID: 3271101535172903488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mosquito_irrallaan_2
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 233
+        width: 30
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf913d2702bc7290800000000000000
+      internalID: -7891236703167209525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mosquito_irrallaan_3
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 243
+        width: 17
+        height: 111
+      alignment: 9
+      pivot: {x: 0.63393265, y: 0.038472768}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e19e05945a80580800000000000000
+      internalID: -8860650532542800359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mosquito_irrallaan_4
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 240
+        width: 41
+        height: 103
+      alignment: 9
+      pivot: {x: 0.055733286, y: 0.04131058}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72daf134c3c975c30800000000000000
+      internalID: 4348115747887623463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mosquito_irrallaan_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 175
+        width: 89
+        height: 48
+      alignment: 9
+      pivot: {x: 0.9093246, y: 0.7727496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d804e0b568603ca50800000000000000
+      internalID: 6540078257995137165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mosquito_irrallaan_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 165
+        width: 147
+        height: 53
+      alignment: 9
+      pivot: {x: 0.05856676, y: 0.7870409}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606c23788d089d4d0800000000000000
+      internalID: -3109312400253073914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mosquito_irrallaan_7
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 169
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a2e6919994bf470800000000000000
+      internalID: 8429412049459489392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mosquito_irrallaan_8
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 107
+        width: 14
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e20abcaadb575990800000000000000
+      internalID: -7397342868173880607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mosquito_irrallaan_9
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 104
+        width: 14
+        height: 41
+      alignment: 9
+      pivot: {x: 0.7846113, y: 0.93038344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f11e1c36ec01e70800000000000000
+      internalID: 9083987376256130822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mosquito_irrallaan_10
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 90
+        width: 9
+        height: 51
+      alignment: 9
+      pivot: {x: 0.7529907, y: 0.9352833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7629a4ca749b120800000000000000
+      internalID: 2430052279254149057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mosquito_irrallaan_11
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 101
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0177ed0b4b9a8a80800000000000000
+      internalID: -8463781803031301874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mosquito_irrallaan_12
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 89
+        width: 13
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef56947e03249e80800000000000000
+      internalID: -8172868878778081303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
