@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class Health : MonoBehaviour
     public Image[] hearts;
     public Sprite fullHeart;
     public Sprite emptyHeart;
+    //Gameover, Restart object
+
 
 
     // Update is called once per frame
@@ -18,11 +21,16 @@ public class Health : MonoBehaviour
         if (health > numOfHearts)
         {
             health = numOfHearts;
+
+
         }
         if (health <= 0)
         {
+
             Destroy(gameObject);
+
         }
+
 
         for (int i = 0; i < hearts.Length; i++)
         {

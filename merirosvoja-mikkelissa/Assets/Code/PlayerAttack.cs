@@ -31,6 +31,9 @@ public class PlayerAttack : MonoBehaviour
                 for (int i = 0; i < enemiesToDamange.Length; i++)
                 {
                     enemiesToDamange[i].GetComponent<Patrol>().TakeDamage(damage);
+                    enemiesToDamange[i].GetComponent<ShootingEnemy>().TakeDamage(damage);
+                    enemiesToDamange[i].GetComponent<FlyingPatrol>().TakeDamage(damage);
+                    enemiesToDamange[i].GetComponent<projectTile>().TakeDamage(damage);
                 }
                 anim.SetBool("Ishit", true);
             }
