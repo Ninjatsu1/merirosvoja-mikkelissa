@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: 6300214dabae69844955dadbf48cb883
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5102646844601556853
+    second: mummo karhu_0
+  - first:
+      213: -647193992781358611
+    second: mummo karhu_1
+  - first:
+      213: 4055825114536824693
+    second: mummo karhu_2
+  - first:
+      213: 7454323906172040192
+    second: mummo karhu_3
+  - first:
+      213: 6147115717401349412
+    second: mummo karhu_4
+  - first:
+      213: 898522418850524822
+    second: mummo karhu_5
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mummo karhu_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 352
+        width: 108
+        height: 115
+      alignment: 9
+      pivot: {x: 0.42621267, y: 0.17826883}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f5eba254e30d640800000000000000
+      internalID: 5102646844601556853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummo karhu_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 397
+        width: 50
+        height: 37
+      alignment: 9
+      pivot: {x: 0.84153074, y: 0.76153153}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de910871e74b407f0800000000000000
+      internalID: -647193992781358611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummo karhu_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 387
+        width: 60
+        height: 40
+      alignment: 9
+      pivot: {x: 0.044627126, y: 0.84152985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f4317f37f294830800000000000000
+      internalID: 4055825114536824693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummo karhu_3
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 238
+        width: 104
+        height: 78
+      alignment: 9
+      pivot: {x: 0.46168754, y: 0.9159659}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00436141914137760800000000000000
+      internalID: 7454323906172040192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummo karhu_4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 98
+        width: 30
+        height: 42
+      alignment: 9
+      pivot: {x: 0.4620524, y: 0.8523723}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d8de81d21fe4550800000000000000
+      internalID: 6147115717401349412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mummo karhu_5
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 96
+        width: 31
+        height: 44
+      alignment: 9
+      pivot: {x: 0.48163876, y: 0.9010384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e6f4e1161387c00800000000000000
+      internalID: 898522418850524822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
