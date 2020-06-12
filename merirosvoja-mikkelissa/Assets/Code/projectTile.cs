@@ -8,7 +8,7 @@ public class projectTile : MonoBehaviour
     private Transform player;
     private Vector2 target;
 
-    public float projectTileHealth;
+
 
     // Start is called before the first frame update
     void Start()
@@ -42,9 +42,5 @@ public class projectTile : MonoBehaviour
         Destroy(gameObject);
     }
 
-    public void TakeDamage(int damage)
-    {
-        projectTileHealth -= damage;
 
-    }
 }
