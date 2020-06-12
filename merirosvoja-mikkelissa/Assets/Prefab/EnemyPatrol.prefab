@@ -722,6 +722,8 @@ MonoBehaviour:
   distance: 1
   groundDetection: {fileID: 4082016810471135180}
   enemyHealth: 2
+  effectToDie: {fileID: 4851816722787204445, guid: ee37283ae6ca49146853260c065f71c8,
+    type: 3}
 --- !u!61 &4082016810725042138
 BoxCollider2D:
   m_ObjectHideFlags: 0
