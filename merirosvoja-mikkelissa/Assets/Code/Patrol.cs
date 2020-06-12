@@ -11,8 +11,6 @@ public class Patrol : MonoBehaviour
     public float enemyHealth;
     private Animator anim;
 
-    public GameObject effectToDie;
-
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -25,7 +23,6 @@ public class Patrol : MonoBehaviour
 
         if (enemyHealth <= 0)
         {
-            Instantiate(effectToDie, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
 
@@ -50,8 +47,6 @@ public class Patrol : MonoBehaviour
 
         if (other.CompareTag("Player"))
         {
-            Instantiate(effectToDie, transform.position, Quaternion.identity);
-
             Health.health -= 1;
             Destroy(gameObject);
 
