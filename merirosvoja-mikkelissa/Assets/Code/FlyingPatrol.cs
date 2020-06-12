@@ -13,6 +13,8 @@ public class FlyingPatrol : MonoBehaviour
 
     public float enemyHealth;
 
+    public GameObject effectToDie;
+
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +29,7 @@ public class FlyingPatrol : MonoBehaviour
 
         if (enemyHealth <= 0)
         {
+            Instantiate(effectToDie, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
 
@@ -52,6 +55,8 @@ public class FlyingPatrol : MonoBehaviour
 
         if (other.CompareTag("Player"))
         {
+            Instantiate(effectToDie, transform.position, Quaternion.identity);
+
             Health.health -= 1;
             Destroy(gameObject);
 
