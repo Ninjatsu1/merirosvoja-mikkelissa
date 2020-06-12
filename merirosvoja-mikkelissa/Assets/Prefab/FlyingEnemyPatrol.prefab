@@ -69,7 +69,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_Sprite: {fileID: -7891236703167209525, guid: 64aca0cb3c16a694d98d308f74671a6b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -151,7 +151,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 2430052279254149057, guid: 64aca0cb3c16a694d98d308f74671a6b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -233,7 +233,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 9083987376256130822, guid: 64aca0cb3c16a694d98d308f74671a6b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -397,7 +397,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_Sprite: {fileID: 6540078257995137165, guid: 64aca0cb3c16a694d98d308f74671a6b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -621,7 +621,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 2430052279254149057, guid: 64aca0cb3c16a694d98d308f74671a6b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -768,7 +768,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 0
   m_Sprite: {fileID: -3109312400253073914, guid: 64aca0cb3c16a694d98d308f74671a6b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -827,7 +827,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.22, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -838,7 +838,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.66, y: 2.55}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &3673527377920223842
 MonoBehaviour:
@@ -852,14 +852,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 092f4b285e5b91a45ae0fe03188d6b6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 5
   moveSpots:
   - {fileID: 3673527376844776003}
   - {fileID: 3673527377138475289}
-  startWaitTime: 1
-  enemyHealth: 1
-  effectToDie: {fileID: 4851816722787204445, guid: ee37283ae6ca49146853260c065f71c8,
-    type: 3}
+  startWaitTime: 0
+  enemyHealth: 5
 --- !u!1 &3673527378025753438
 GameObject:
   m_ObjectHideFlags: 0
@@ -929,7 +927,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 2430052279254149057, guid: 64aca0cb3c16a694d98d308f74671a6b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1011,7 +1009,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -8860650532542800359, guid: 64aca0cb3c16a694d98d308f74671a6b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1093,7 +1091,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 9083987376256130822, guid: 64aca0cb3c16a694d98d308f74671a6b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1175,7 +1173,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 9083987376256130822, guid: 64aca0cb3c16a694d98d308f74671a6b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1257,7 +1255,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_Sprite: {fileID: 3271101535172903488, guid: 64aca0cb3c16a694d98d308f74671a6b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

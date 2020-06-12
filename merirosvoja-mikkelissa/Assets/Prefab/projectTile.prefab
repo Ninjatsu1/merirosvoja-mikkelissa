@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  enemyHealth: 1
+  projectTileHealth: 0.5
 --- !u!58 &3884999793217582860
 CircleCollider2D:
   m_ObjectHideFlags: 0

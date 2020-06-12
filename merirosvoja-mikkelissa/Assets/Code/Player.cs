@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 using TMPro;
 public class Player : MonoBehaviour
 {
@@ -87,14 +86,6 @@ public class Player : MonoBehaviour
         if (other.gameObject.name.Equals("vene"))
         {
             this.transform.parent = null;
-        }
-    }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("lake"))
-        {
-            SceneManager.LoadScene("Adventure_level_0");
         }
     }
 
