@@ -26483,6 +26483,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6553090277267104601, guid: 04bb014f13245274080b3219ea4cb148,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6553090278507658220, guid: 04bb014f13245274080b3219ea4cb148,
         type: 3}
       propertyPath: hearts.Array.data[0]
