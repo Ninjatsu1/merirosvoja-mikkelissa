@@ -36,6 +36,7 @@ public class Player : MonoBehaviour
         transform.position += new Vector3(Horizontal, 0, 0) * Time.deltaTime * MovementSpeed;
         if (isGrounded == true && Input.GetButtonDown("Jump") && Mathf.Abs(MyRigidbody2D.velocity.y) < 0.001f)
         {
+            SoundManagerScript.PlaySound("PussyJump");//td
             //triggers the jump
             anim.SetTrigger("takeOf");
             MyRigidbody2D.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);

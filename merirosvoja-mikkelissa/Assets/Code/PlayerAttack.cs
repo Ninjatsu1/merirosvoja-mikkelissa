@@ -13,10 +13,12 @@ public class PlayerAttack : MonoBehaviour
     public int damage;
     private Animator anim;
 
+
     void Start()
     {
 
         anim = GetComponent<Animator>();
+ 
     }
 
     // Update is called once per frame
@@ -37,6 +39,7 @@ public class PlayerAttack : MonoBehaviour
 
                 }
                 anim.SetBool("Ishit", true);
+                SoundManagerScript.PlaySound("SwingSwong");
             }
             else
             {
@@ -44,12 +47,17 @@ public class PlayerAttack : MonoBehaviour
             }
 
             timeBtwAttack = startTimeBtwAttack;
+            
         }
         else
         {
             timeBtwAttack -= Time.deltaTime;
         }
+
+       
+
     }
+
 
     //helps visualize attack and range
     void OnDrawGizmosSelected()
