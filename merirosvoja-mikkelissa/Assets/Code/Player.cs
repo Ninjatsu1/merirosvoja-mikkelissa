@@ -94,20 +94,12 @@ public class Player : MonoBehaviour
     {
         if (other.CompareTag("lake"))
         {
+            Health.health = 3;
+            Health.numOfHearts = 4;
             SceneManager.LoadScene("Adventure_level_0");
         }
     }
 
-    public void SavePlayer()
-    {
-        SaveSystem.SavePlayer(this);
-    }
-    public void LoadPlayer()
-    {
-        PlayerData data = SaveSystem.LoadPlayer();
-        Health.health = data.health;
-        Health.numOfHearts = data.numOfHearts;
-    }
 
 
 }

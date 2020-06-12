@@ -42,6 +42,8 @@ public class PauseMenu : MonoBehaviour
 
     public void LoadMenu()
     {
+        Health.health = 3;
+        Health.numOfHearts = 4;
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
     }
