@@ -8,6 +8,7 @@ public class ShootingEnemy : MonoBehaviour
     public float stoppinDistance;
     public float retReatDistance;
     private Transform player;
+    private bool movingRigth = true;
 
     // Shooting
     private float timeBtwShots;
@@ -16,6 +17,7 @@ public class ShootingEnemy : MonoBehaviour
     public float enemyHealth;
 
     private Animator animator;
+
 
 
     // Start is called before the first frame update
@@ -33,6 +35,8 @@ public class ShootingEnemy : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+
         if (Vector2.Distance(transform.position, player.position) > stoppinDistance)
         {
             transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
@@ -56,7 +60,9 @@ public class ShootingEnemy : MonoBehaviour
         {
             animator.SetBool("isAttack", false);
             timeBtwShots -= Time.deltaTime;
+
         }
+
     }
 
 

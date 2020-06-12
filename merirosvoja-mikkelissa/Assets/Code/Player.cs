@@ -73,5 +73,32 @@ public class Player : MonoBehaviour
         }
     }
 
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.name.Equals("vene"))
+        {
+            this.transform.parent = other.transform;
+        }
+    }
+
+    void OnCollisionExit(Collision other)
+    {
+        if (other.gameObject.name.Equals("vene"))
+        {
+            this.transform.parent = null;
+        }
+    }
+
+    public void SavePlayer()
+    {
+        SaveSystem.SavePlayer(this);
+    }
+    public void LoadPlayer()
+    {
+        PlayerData data = SaveSystem.LoadPlayer();
+        Health.health = data.health;
+        Health.numOfHearts = data.numOfHearts;
+    }
+
 
 }

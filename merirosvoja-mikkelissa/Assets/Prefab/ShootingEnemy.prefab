@@ -381,10 +381,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbf522add3e3e294c8a3092a64d485d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  stoppinDistance: 5
-  retReatDistance: 2
-  startTimeBtwShots: 2
+  speed: 10
+  stoppinDistance: 20
+  retReatDistance: 10
+  startTimeBtwShots: 5
   projectTile: {fileID: 18946225568371181, guid: 2acdc52d7d0ebac4f9d75a23a0b8ce30,
     type: 3}
   enemyHealth: 3
