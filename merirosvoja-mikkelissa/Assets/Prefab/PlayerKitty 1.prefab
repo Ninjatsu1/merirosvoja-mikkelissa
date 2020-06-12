@@ -1185,7 +1185,7 @@ MonoBehaviour:
   score: 0
   ScoreText: {fileID: 0}
   groundCheck: {fileID: 6553090278091750880}
-  checkRadius: 0.5
+  checkRadius: 0.025
   whatisGround:
     serializedVersion: 2
     m_Bits: 256
@@ -1312,7 +1312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startTimeBtwAttack: 0.3
   attackPos: {fileID: 6553090277789231267}
-  attackRange: 0.61
+  attackRange: 1.06
   whatIsEnemy:
     serializedVersion: 2
     m_Bits: 512
