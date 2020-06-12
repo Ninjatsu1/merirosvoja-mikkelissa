@@ -7,6 +7,7 @@ public class projectTile : MonoBehaviour
     public float speed;
     private Transform player;
     private Vector2 target;
+    public float enemyHealth;
 
 
 
@@ -33,8 +34,9 @@ public class projectTile : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Health.health -= 1;
+
             DestroyProjecTile();
+            Health.health -= 1;
         }
     }
     void DestroyProjecTile()
@@ -42,5 +44,11 @@ public class projectTile : MonoBehaviour
         Destroy(gameObject);
     }
 
+
+    public void TakeDamage(int damage)
+    {
+        enemyHealth -= damage;
+
+    }
 
 }

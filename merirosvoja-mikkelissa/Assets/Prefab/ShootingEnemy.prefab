@@ -382,8 +382,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  stoppinDistance: 20
-  retReatDistance: 10
+  stoppinDistance: 10
+  retReatDistance: 0.5
   startTimeBtwShots: 5
   projectTile: {fileID: 18946225568371181, guid: 2acdc52d7d0ebac4f9d75a23a0b8ce30,
     type: 3}
