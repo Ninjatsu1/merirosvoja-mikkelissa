@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -4042,7 +4042,7 @@ PrefabInstance:
     - target: {fileID: 8334884325107020027, guid: 18be16cb9e9679244a7593ab745250cd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -24.2
+      value: -24.29
       objectReference: {fileID: 0}
     - target: {fileID: 8334884325107020027, guid: 18be16cb9e9679244a7593ab745250cd,
         type: 3}
@@ -4097,7 +4097,7 @@ PrefabInstance:
     - target: {fileID: 8334884325107020027, guid: 18be16cb9e9679244a7593ab745250cd,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 5.92
+      value: 3.404
       objectReference: {fileID: 0}
     - target: {fileID: 8334884325564530877, guid: 18be16cb9e9679244a7593ab745250cd,
         type: 3}
@@ -23491,12 +23491,22 @@ PrefabInstance:
     - target: {fileID: 6996047788488918897, guid: b402c453907b9164bba2d0db9ab23072,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6996047788663615036, guid: b402c453907b9164bba2d0db9ab23072,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6996047789506492580, guid: b402c453907b9164bba2d0db9ab23072,
         type: 3}
       propertyPath: m_Name
       value: BoatPatrol
+      objectReference: {fileID: 0}
+    - target: {fileID: 6996047789506492580, guid: b402c453907b9164bba2d0db9ab23072,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6996047789506492581, guid: b402c453907b9164bba2d0db9ab23072,
         type: 3}
@@ -23553,6 +23563,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6996047789681338247, guid: b402c453907b9164bba2d0db9ab23072,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b402c453907b9164bba2d0db9ab23072, type: 3}
 --- !u!1001 &8334884325592186290
@@ -23580,7 +23595,7 @@ PrefabInstance:
     - target: {fileID: 8334884325107020027, guid: 18be16cb9e9679244a7593ab745250cd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19
+      value: -16.26
       objectReference: {fileID: 0}
     - target: {fileID: 8334884325107020027, guid: 18be16cb9e9679244a7593ab745250cd,
         type: 3}

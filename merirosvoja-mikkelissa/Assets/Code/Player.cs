@@ -83,7 +83,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    void OnCollisionExit(Collision other)
+    void OnCollisionExit2D(Collision2D other)
     {
         if (other.gameObject.name.Equals("vene"))
         {
