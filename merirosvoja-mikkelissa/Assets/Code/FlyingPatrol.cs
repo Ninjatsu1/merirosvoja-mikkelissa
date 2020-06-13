@@ -27,13 +27,16 @@ public class FlyingPatrol : MonoBehaviour
     void Update()
     {
 
+
+
+        transform.position = Vector2.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime);
+
         if (enemyHealth <= 0)
         {
             Instantiate(effectToDie, transform.position, Quaternion.identity);
+            SoundManagerScript.PlaySound("Hurt");//td
             Destroy(gameObject);
         }
-
-        transform.position = Vector2.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime);
 
         if (Vector2.Distance(transform.position, moveSpots[randomSpot].position) < 0.2f)
         {
@@ -56,7 +59,7 @@ public class FlyingPatrol : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Instantiate(effectToDie, transform.position, Quaternion.identity);
-
+            SoundManagerScript.PlaySound("Hurt");//td
             Health.health -= 1;
             Destroy(gameObject);
 

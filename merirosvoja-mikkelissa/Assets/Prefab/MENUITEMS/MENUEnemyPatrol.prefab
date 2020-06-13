@@ -277,7 +277,7 @@ GameObject:
   - component: {fileID: 26950354231172945}
   - component: {fileID: 26950354231172951}
   - component: {fileID: 26950354231172950}
-  - component: {fileID: 26950354231172949}
+  - component: {fileID: 4636344790690052221}
   m_Layer: 9
   m_Name: MENUEnemyPatrol
   m_TagString: Enemy
@@ -372,7 +372,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!95 &26950354231172949
+--- !u!95 &4636344790690052221
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -382,7 +382,7 @@ Animator:
   m_GameObject: {fileID: 26950354231172946}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f73e5bd1bc0dee144883c712c534455d, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1406aecf181c89b4dac70b270c70c08f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

@@ -1317,3 +1317,5 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   damage: 2
+  effectToDie: {fileID: 8248647148187129618, guid: d7d82165eeb190940b052f994c472216,
+    type: 3}

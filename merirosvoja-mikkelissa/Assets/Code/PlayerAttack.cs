@@ -13,12 +13,12 @@ public class PlayerAttack : MonoBehaviour
     public int damage;
     private Animator anim;
 
-
+    public GameObject effectToDie;
     void Start()
     {
 
         anim = GetComponent<Animator>();
- 
+
     }
 
     // Update is called once per frame
@@ -37,6 +37,7 @@ public class PlayerAttack : MonoBehaviour
                     enemiesToDamange[i].GetComponent<FlyingPatrol>().TakeDamage(damage);
                     enemiesToDamange[i].GetComponent<projectTile>().TakeDamage(damage);
 
+                    Instantiate(effectToDie, transform.position, Quaternion.identity);
                 }
                 anim.SetBool("Ishit", true);
                 SoundManagerScript.PlaySound("SwingSwong");
@@ -47,14 +48,14 @@ public class PlayerAttack : MonoBehaviour
             }
 
             timeBtwAttack = startTimeBtwAttack;
-            
+
         }
         else
         {
             timeBtwAttack -= Time.deltaTime;
         }
 
-       
+
 
     }
 

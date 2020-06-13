@@ -258,7 +258,7 @@ GameObject:
   - component: {fileID: 1545697210253365899}
   - component: {fileID: 1545697210253365902}
   - component: {fileID: 1545697210253365897}
-  - component: {fileID: 1545697210253365903}
+  - component: {fileID: 3510036721568956915}
   m_Layer: 9
   m_Name: MENUShootingEnemy
   m_TagString: Enemy
@@ -348,7 +348,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!95 &1545697210253365903
+--- !u!95 &3510036721568956915
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -358,7 +358,7 @@ Animator:
   m_GameObject: {fileID: 1545697210253365898}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0ca87d53e83c7d9448d00902eccd2c66, type: 2}
+  m_Controller: {fileID: 9100000, guid: 17aa6fb4676574c478d2fc75bf773597, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -556,7 +556,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1545697210375417026}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.516, y: 0.839, z: 0}
+  m_LocalPosition: {x: 0.455, y: 1.064, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1545697210525869930}
@@ -605,7 +605,7 @@ SpriteRenderer:
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
-  m_FlipY: 1
+  m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.92, y: 0.64}
   m_AdaptiveModeThreshold: 0.5

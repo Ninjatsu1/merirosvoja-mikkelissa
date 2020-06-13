@@ -26,7 +26,7 @@ public class Patrol : MonoBehaviour
         if (enemyHealth <= 0)
         {
             Instantiate(effectToDie, transform.position, Quaternion.identity);
-
+            SoundManagerScript.PlaySound("Hurt");//td
             Destroy(gameObject);
         }
 
