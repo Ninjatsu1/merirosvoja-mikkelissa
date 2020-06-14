@@ -26,7 +26,7 @@ public class Health : MonoBehaviour
         }
         if (health <= 0)
         {
-            SceneManager.LoadScene("Adventure_level_0");
+            SceneManager.LoadScene("MainMenu");//changed to mainmenu
             health = 3;
             numOfHearts = 4;
             Destroy(gameObject);
