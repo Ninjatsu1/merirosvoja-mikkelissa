@@ -9,6 +9,8 @@ public class boss_squid_melee : MonoBehaviour
     public Vector3 attackOffset;
     public float attackRange = 1f;
     public LayerMask attackMask;
+
+    public GameObject effectToDie;
     // Start is called before the first frame update
 
     public void MeleeAttack()
@@ -19,8 +21,12 @@ public class boss_squid_melee : MonoBehaviour
         Collider2D colInfo = Physics2D.OverlapCircle(pos, attackRange, attackMask);
         if (colInfo != null)
         {
+            Health.health -= 2;
+            SoundManagerScript.PlaySound("Hurt");//td
             Debug.Log("Damaged player");
         }
+        
     }
+   
     
 }

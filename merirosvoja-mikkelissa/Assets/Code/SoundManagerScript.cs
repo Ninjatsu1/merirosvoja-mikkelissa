@@ -26,7 +26,7 @@ public class SoundManagerScript : MonoBehaviour
         Bottletus = Resources.Load<AudioClip>("Bottle");
 
         audiSource = GetComponent<AudioSource>();
-
+        
     }
 
     // Update is called once per frame
